@@ -1,0 +1,13 @@
+body {
+  position: relative;
+  background-color: #2d2d2d;
+  overflow: hidden;
+}
+body #root {
+  position: absolute;
+  top: 0;
+}
+body .particles {
+  height: 100vh;
+  z-index: -10;
+}/*# sourceMappingURL=index.css.map */
