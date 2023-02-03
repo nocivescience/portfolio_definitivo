@@ -1,6 +1,10 @@
 import '../static/sass/Container.css'
 export const Container=()=>{
     return (
-        <div>hola a todos</div>
+        <div className='container'>
+            <div>Primero</div>
+            <div>Segundo</div>
+            <div>Tercero</div>
+        </div>
     )
 }

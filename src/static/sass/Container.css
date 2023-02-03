@@ -1,1 +1,12 @@
-/*# sourceMappingURL=Container.css.map */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  z-index: -100;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.container div {
+  background-color: red;
+  height: 60px;
+}/*# sourceMappingURL=Container.css.map */

@@ -9,5 +9,5 @@ body #root {
 }
 body .particles {
   height: 100vh;
-  z-index: -10;
+  z-index: 100;
 }/*# sourceMappingURL=index.css.map */

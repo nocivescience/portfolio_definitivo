@@ -1,7 +1,7 @@
 export const RightContainer=()=>{
     return (
         <div>
-            mundo
+            hola a todos
         </div>
     )
 }
