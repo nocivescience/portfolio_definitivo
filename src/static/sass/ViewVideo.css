@@ -1,0 +1,16 @@
+.video-container {
+  position: relative;
+  width: 300px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+.video-container h6 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  opacity: 0.1;
+}
+.video-container video {
+  border-radius: 5px;
+  border: 2px solid white;
+}/*# sourceMappingURL=ViewVideo.css.map */
