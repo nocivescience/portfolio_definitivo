@@ -1,6 +1,7 @@
 import "../static/sass/Container.css";
 import { MyVideo } from "./ViewVideo";
-import '../static/js/lineRightContainer'
+import '../static/js/cubeNinja'
+// import '../static/js/lineRightContainer'
 import UpdatePolarVideo from "../static/videos/UpdatePolarFunction.mp4";
 import IntegralScene from "../static/videos/IntegralScene.mp4";
 import BeamScene from "../static/videos/BeamScene.mp4";
@@ -57,11 +58,7 @@ export const Container = () => {
         <img src={PhysicImage} id='imagen3'></img>
       <p>Id pariatur cillum consequat adipisicing minim cupidatat id veniam. Veniam officia consequat ea est commodo. Proident reprehenderit laborum ea duis ipsum elit Lorem in ex dolore magna.</p>
       </div>
-      <div className="right-container">
-        <svg viewBox="0 0 100 300">
-          <line x1="50" y1="10" x2="50" y2="11" id="line-right-container" />
-        </svg>
-      </div>
+      <div className="right-container"></div>
     </div>
   );
 };

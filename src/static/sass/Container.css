@@ -47,30 +47,20 @@
 .container-tres-columnas .center-container {
   padding: 0 20px;
 }
-.container-tres-columnas .center-container .active-image-1 {
+.container-tres-columnas .center-container img {
+  width: 100%;
+  opacity: 0;
+  transform: scale(0) rotateY(1800deg);
+  border-radius: 6px;
+}
+.container-tres-columnas .center-container .active-image {
   opacity: 1;
   transform: scale(1) rotateY(0deg);
   transition: opacity 1s ease, transform 1s ease;
 }
-.container-tres-columnas .center-container .active-image-2 {
-  opacity: 1;
-  transform: scale(1) rotateX(0);
-  transition: opacity 1s ease, transform 1s ease;
+.container-tres-columnas .right-container {
+  overflow: hidden;
 }
-.container-tres-columnas .center-container .active-image-3 {
-  opacity: 1;
-  transform: scale(1) rotateZ(0);
-  transition: opacity 1s ease, transform 1s ease;
-}
-.container-tres-columnas .center-container img {
-  width: 100%;
-  opacity: 0;
-  transform: scale(0) rotateY(1800deg) rotateX(1800deg) rotateZ(1800deg);
-  border-radius: 6px;
-}
-.container-tres-columnas .right-container svg line {
-  z-index: 100;
-  stroke: #ffffff;
-  stroke-width: 3px;
-  stroke-linecap: round;
+.container-tres-columnas .right-container canvas {
+  background-color: rgba(0, 0, 0, 0);
 }/*# sourceMappingURL=Container.css.map */

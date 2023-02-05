@@ -34,27 +34,16 @@
         align-items: center
     .center-container
         padding: 0 20px
-        .active-image-1
-            opacity: 1
-            transform: scale(1) rotateY(0deg)
-            transition: opacity 1s ease, transform 1s ease
-        .active-image-2
-            opacity: 1
-            transform: scale(1) rotateX(0)
-            transition: opacity 1s ease, transform 1s ease
-        .active-image-3
-            opacity: 1
-            transform: scale(1) rotateZ(0)
-            transition: opacity 1s ease, transform 1s ease
         img
             width: 100%
             opacity: 0
-            transform: scale(0) rotateY(360*5deg) rotateX(360*5deg) rotateZ(360*5deg)
+            transform: scale(0) rotateY(360*5deg)
             border-radius: 6px
+        .active-image
+            opacity: 1
+            transform: scale(1) rotateY(0deg)
+            transition: opacity 1s ease, transform 1s ease
     .right-container
-        svg
-            line
-                z-index: 100
-                stroke: #ffffff
-                stroke-width: 3px
-                stroke-linecap: round
+        overflow: hidden
+        canvas
+            background-color: #00000000

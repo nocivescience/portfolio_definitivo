@@ -7,9 +7,7 @@ window.onload=()=>{
     const cargarImagen=(entradas, observador)=>{
         entradas.forEach(entrada=>{
             if(entrada.isIntersecting){
-                const random=Math.floor(Math.random()*3)
-                entrada.target.classList.add(`active-image-${random}`)
-                // lineHorizon.setAttribute('y2', entrada.intersectionRatio*100+'%')
+                entrada.target.classList.add('active-image')
             }
         })
     }
