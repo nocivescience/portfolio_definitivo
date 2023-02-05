@@ -58,7 +58,10 @@ export const Container = () => {
         <img src={PhysicImage} id='imagen3'></img>
       <p>Id pariatur cillum consequat adipisicing minim cupidatat id veniam. Veniam officia consequat ea est commodo. Proident reprehenderit laborum ea duis ipsum elit Lorem in ex dolore magna.</p>
       </div>
-      <div className="right-container"></div>
+      <div className="right-container">
+        <div id="cubeRightContainer"></div>
+        <div id="dodecahedroRightContainer"></div>
+      </div>
     </div>
   );
 };

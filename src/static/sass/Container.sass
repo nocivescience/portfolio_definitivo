@@ -24,10 +24,14 @@
             order: 2
             overflow-y: hidden
             box-shadow: none
+            padding: 0
         .center-container
             order: 1
+            padding: 0
         .right-container
             order: 3
+            padding: 0
+            width: 100%
     .left-container
         display: flex
         flex-direction: column
@@ -45,5 +49,10 @@
             transition: opacity 1s ease, transform 1s ease
     .right-container
         overflow: hidden
+        display: flex
+        justify-content: center
         canvas
-            background-color: #00000000
+            opacity: .5
+            border: white 1px solid
+            border-radius: 14px
+            width: 95%

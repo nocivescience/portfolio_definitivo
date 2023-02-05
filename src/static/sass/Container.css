@@ -31,12 +31,16 @@
     order: 2;
     overflow-y: hidden;
     box-shadow: none;
+    padding: 0;
   }
   .container-tres-columnas .center-container {
     order: 1;
+    padding: 0;
   }
   .container-tres-columnas .right-container {
     order: 3;
+    padding: 0;
+    width: 100%;
   }
 }
 .container-tres-columnas .left-container {
@@ -60,7 +64,12 @@
 }
 .container-tres-columnas .right-container {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .container-tres-columnas .right-container canvas {
-  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.5;
+  border: white 1px solid;
+  border-radius: 14px;
+  width: 95%;
 }/*# sourceMappingURL=Container.css.map */
