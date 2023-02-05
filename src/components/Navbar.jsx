@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import '../static/sass/Navbar.css'
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark main-navbar">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-danger main-navbar">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           Navbar
