@@ -6,7 +6,6 @@
     .left-container
         overflow-y: scroll
         overflow-x: hidden
-        height: 80vh
     .left-container::-webkit-scrollbar
         width: 6px
         background-color: #8b01010000
@@ -18,24 +17,6 @@
         border-radius: 3px
         &:hover
             background: #15fd00
-    
-    @media screen and ( max-width:  400px)
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-content: center
-        .left-container
-            order: 2
-            overflow-y: hidden
-            box-shadow: none
-            padding: 0
-        .center-container
-            order: 1
-            padding: 0
-        .right-container
-            order: 3
-            padding: 0
-            width: 100%
     .left-container
         display: flex
         flex-direction: column
@@ -62,3 +43,29 @@
             border: white 1px solid
             border-radius: 14px
             width: 95%
+    @media screen and ( max-width:  900px)
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-content: center
+        .left-container
+            order: 2
+            overflow-y: hidden
+            box-shadow: none
+            padding: 0
+            display: flex
+            flex-wrap: wrap
+            flex-direction: row
+            justify-content: center
+            align-content: center
+        .center-container
+            order: 1
+            padding: 0
+        .right-container
+            order: 3
+            padding: 0
+            display: flex
+            flex-wrap: wrap
+            flex-direction: row
+            justify-content: center
+            align-content: flex-start

@@ -108,7 +108,6 @@ export const Container = () => {
         <div id="dodecahedroRightContainer"></div>
         <div id="piramidRightContainer"></div>
         <div id="torusRightContainer"></div>
-        <div id="parametricSurfaceRightContainer"></div>
       </div>
     </div>
   );

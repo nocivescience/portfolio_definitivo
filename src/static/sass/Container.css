@@ -7,7 +7,6 @@
 .container-tres-columnas .left-container {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 80vh;
 }
 .container-tres-columnas .left-container::-webkit-scrollbar {
   width: 6px;
@@ -22,29 +21,6 @@
 }
 .container-tres-columnas .left-container::-webkit-scrollbar-thumb:hover {
   background: #15fd00;
-}
-@media screen and (max-width: 400px) {
-  .container-tres-columnas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  .container-tres-columnas .left-container {
-    order: 2;
-    overflow-y: hidden;
-    box-shadow: none;
-    padding: 0;
-  }
-  .container-tres-columnas .center-container {
-    order: 1;
-    padding: 0;
-  }
-  .container-tres-columnas .right-container {
-    order: 3;
-    padding: 0;
-    width: 100%;
-  }
 }
 .container-tres-columnas .left-container {
   display: flex;
@@ -77,4 +53,36 @@
   border: white 1px solid;
   border-radius: 14px;
   width: 95%;
+}
+@media screen and (max-width: 900px) {
+  .container-tres-columnas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .container-tres-columnas .left-container {
+    order: 2;
+    overflow-y: hidden;
+    box-shadow: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+  .container-tres-columnas .center-container {
+    order: 1;
+    padding: 0;
+  }
+  .container-tres-columnas .right-container {
+    order: 3;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+  }
 }/*# sourceMappingURL=Container.css.map */
