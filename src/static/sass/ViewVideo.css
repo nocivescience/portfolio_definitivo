@@ -15,6 +15,7 @@
 .video-container video {
   border-radius: 5px;
   border: 2px solid white;
+  height: 100%;
 }
 .video-container hr {
   display: none;
