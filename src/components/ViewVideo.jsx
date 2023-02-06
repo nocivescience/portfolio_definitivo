@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import '../static/sass/ViewVideo.css'
 export const MyVideo=(props)=>{
     const videoRef=useRef(null)
-    const {fuente} = props
+    const {fuente, poster} = props
     const handlePlay=()=>{
         videoRef.current.play()
     }
@@ -16,6 +16,7 @@ export const MyVideo=(props)=>{
             width='300' 
             height='170'
             ref={videoRef}
+            poster={poster}
             onClick={handlePlay}
             onMouseLeave={handlePause}
             >

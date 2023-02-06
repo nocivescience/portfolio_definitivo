@@ -1,28 +1,32 @@
 import "../static/sass/Container.css";
 import { MyVideo } from "./ViewVideo";
-import '../static/js/cubeNinja'
-// import '../static/js/lineRightContainer'
+import "../static/js/cubeNinja";
 import UpdatePolarVideo from "../static/videos/UpdatePolarFunction.mp4";
 import IntegralScene from "../static/videos/IntegralScene.mp4";
 import BeamScene from "../static/videos/BeamScene.mp4";
 import FiguresScene from "../static/videos/FiguresScene.mp4";
 import CycleIntentScene from "../static/videos/MyOtherIntentToCycle.mp4";
 import HowManyHitGet from "../static/videos/HowManyHitGet.mp4";
-import MathImage from '../static/imagenes/abaco.jpg'
-import PhysicImage from '../static/imagenes/newton.jpg'
-import ChemistryImage from '../static/imagenes/cristal.jpg'
+import MathImage from "../static/imagenes/abaco.jpg";
+import PhysicImage from "../static/imagenes/newton.jpg";
+import ChemistryImage from "../static/imagenes/cristal.jpg";
 import MyProof from "../static/videos/MyProof.mp4";
+import CurvaAmarilla from "../static/imagenes/videoCurvaAmarilla.png";
+import ElectronViajante from "../static/imagenes/electronViajante.png";
+import Impulso from "../static/imagenes/impulso.png";
+import Estrella from "../static/imagenes/estrella.png";
+import Crowd from "../static/imagenes/crowd.png";
 export const Container = () => {
   return (
     <div className="container-tres-columnas">
       <div className="left-container">
-        <MyVideo fuente={UpdatePolarVideo}></MyVideo>
+        <MyVideo fuente={UpdatePolarVideo} poster={CurvaAmarilla}></MyVideo>
         <MyVideo fuente={IntegralScene}></MyVideo>
-        <MyVideo fuente={BeamScene}></MyVideo>
+        <MyVideo fuente={BeamScene} poster={ElectronViajante}></MyVideo>
         <MyVideo fuente={FiguresScene}></MyVideo>
-        <MyVideo fuente={CycleIntentScene}></MyVideo>
-        <MyVideo fuente={HowManyHitGet}></MyVideo>
-        <MyVideo fuente={MyProof}></MyVideo>
+        <MyVideo fuente={CycleIntentScene} poster={Estrella}></MyVideo>
+        <MyVideo fuente={HowManyHitGet} poster={Impulso}></MyVideo>
+        <MyVideo fuente={MyProof} poster={Crowd}></MyVideo>
       </div>
       <div className="center-container">
         <h2 className="display-5">Mi formación académica</h2>
@@ -42,25 +46,69 @@ export const Container = () => {
           mis conocimientos en este campo para poder aportar soluciones
           innovadoras y eficaces en el futuro.
         </p>
-        <img src={MathImage} id='imagen1'></img>
+        <img src={MathImage} id="imagen1"></img>
+        <h2 className="display-5">My english Skill</h2>
+        <p>Dear Friends,</p>
+
         <p>
-            Consectetur labore mollit anim non aliqua occaecat quis qui nisi amet fugiat cillum pariatur ad. Ut qui ut quis magna ut consequat in anim labore eu pariatur deserunt. Dolor ea qui cillum cupidatat eu. Labore minim anim reprehenderit cupidatat nulla culpa aute reprehenderit proident duis duis eu.
+          I am writing to express my interest in the developement role at my own
+          way. With 6 years in the Tecnichal Field industry and a passion for
+          staying up-to-date with the latest technologies and advancements, I am
+          confident that I have the skills and experience required for this
+          position.
         </p>
-        <p>Mollit deserunt officia pariatur consequat ad qui reprehenderit incididunt aliquip deserunt anim enim exercitation. Consectetur eiusmod cillum id ullamco sit irure sint et. Et excepteur tempor ad labore eu veniam sunt tempor cupidatat tempor ad enim minim officia. Ex cupidatat minim adipisicing anim et elit ullamco proident amet commodo ex nostrud eiusmod laborum.</p>
-        <p>Ipsum fugiat dolor dolore magna exercitation nisi aliqua sit. Labore adipisicing esse cillum nostrud ad. Commodo magna consectetur fugiat minim proident cupidatat et minim eiusmod laborum. Tempor dolor quis fugiat mollit culpa deserunt occaecat est. Ut eu nostrud laborum velit in do elit in enim nulla non sint.</p>
-        <p>Labore ipsum nisi minim aute occaecat tempor tempor labore ad enim voluptate aliqua veniam. Nulla ex qui aliquip cupidatat ea duis cupidatat deserunt ea aliqua sit incididunt anim officia. Proident est dolore deserunt laborum ad dolor voluptate mollit fugiat ullamco consequat.</p>
-        <img src={ChemistryImage} id='imagen2'></img>
-        <p>Est reprehenderit qui ea non minim tempor dolore reprehenderit. Et reprehenderit ullamco dolore velit sit. Enim amet tempor cupidatat commodo magna cillum tempor sunt dolore. Anim ad aliquip nostrud laborum culpa excepteur esse nostrud consequat. Ullamco aliquip amet minim cillum tempor elit deserunt nisi incididunt eu id cupidatat aliquip pariatur. Mollit nostrud sunt irure Lorem mollit aliquip enim eiusmod do aliquip exercitation nisi et. Ea reprehenderit est ex commodo occaecat fugiat in veniam aliqua.</p>
-        <p>Incididunt ad dolor irure veniam nulla consectetur sint fugiat mollit tempor occaecat esse adipisicing. Lorem et aute pariatur eu commodo velit aute ea nulla est enim fugiat ipsum commodo. Ex nisi dolore aliquip esse do veniam veniam reprehenderit pariatur aliqua nulla est laborum. In aliquip aute reprehenderit Lorem id incididunt. Duis non ullamco culpa pariatur.</p>
-        <p>Irure ullamco occaecat deserunt culpa consequat dolor exercitation adipisicing aliqua. Nulla veniam fugiat quis incididunt Lorem aliqua eiusmod Lorem ad proident cupidatat exercitation id. Ut pariatur et nulla nulla. Et dolor proident duis aute labore occaecat reprehenderit ea elit sunt. In laborum anim irure aliqua enim amet.</p>
-        <p>Ex dolor fugiat commodo duis officia elit reprehenderit commodo ullamco magna qui. Anim adipisicing esse deserunt aliquip fugiat pariatur. Nostrud culpa minim do fugiat ea anim enim.</p>
-        <p>Duis Lorem adipisicing ad excepteur laborum enim minim proident culpa eiusmod. Irure id laborum eiusmod aliqua cillum Lorem. Id culpa aute id sunt ullamco. Qui consequat eu duis ut id minim officia ea deserunt deserunt et nostrud duis mollit.</p>
-        <img src={PhysicImage} id='imagen3'></img>
-      <p>Id pariatur cillum consequat adipisicing minim cupidatat id veniam. Veniam officia consequat ea est commodo. Proident reprehenderit laborum ea duis ipsum elit Lorem in ex dolore magna.</p>
+
+        <p>
+          My strong analytical and problem-solving skills, combined with my
+          ability to work well under pressure, have allowed me to successfully
+          complete complex projects within tight deadlines.
+        </p>
+
+        <p>
+          I am particularly interested in joining Tecnnological Industry
+          because. I believe that my experience and technical skills, combined
+          with my drive to continuously learn and grow, would make me a valuable
+          asset to your team.
+        </p>
+        <p>
+          Thank you for considering my application. I look forward to the
+          opportunity to further discuss my qualifications and how I can
+          contribute to the success of your organization.
+        </p>
+        <img src={ChemistryImage} id="imagen2"></img>
+        <h2 className="display-5">Mis habilidades con Blender</h2>
+        <p>
+          Me encanta trabajar con Blender para propósitos educativos. Blender es
+          un software de modelado 3D y animación de código abierto y ha sido mi
+          herramienta principal para crear contenido educativo visual y
+          atractivo.
+        </p>
+        <p>
+          Desde que descubrí Blender, he estado emocionado/a de explorar sus
+          posibilidades y de cómo puedo utilizarlo para enseñar a otros de
+          manera efectiva. He creado varios tutoriales en 3D, animaciones y
+          modelos para ilustrar conceptos complejos de manera clara y accesible
+          para mis estudiantes.
+        </p>
+        <p>
+          Me siento muy apasionado/a por la tecnología y cómo puede ser
+          utilizada en el aula para mejorar la educación. Creo firmemente en el
+          poder de la visualización para hacer que el aprendizaje sea más
+          interesante y retenible para los estudiantes.
+        </p>
+        <p>
+          Estoy emocionado/a de poder continuar utilizando Blender para mis
+          proyectos educativos y estoy ansioso/a de explorar nuevas maneras de
+          utilizar la tecnología en el aula.
+        </p>
+        <img src={PhysicImage} id="imagen3"></img>
       </div>
       <div className="right-container">
         <div id="cubeRightContainer"></div>
         <div id="dodecahedroRightContainer"></div>
+        <div id="piramidRightContainer"></div>
+        <div id="torusRightContainer"></div>
+        <div id="parametricSurfaceRightContainer"></div>
       </div>
     </div>
   );

@@ -10,11 +10,15 @@
     .left-container::-webkit-scrollbar
         width: 6px
         background-color: #8b01010000
+    .center-container
+        h2
+            margin: 20px
     .left-container::-webkit-scrollbar-thumb
         background: #ff3838
         border-radius: 3px
         &:hover
             background: #15fd00
+    
     @media screen and ( max-width:  400px)
         display: flex
         flex-direction: column
@@ -50,9 +54,11 @@
     .right-container
         overflow: hidden
         display: flex
-        justify-content: center
+        flex-direction: column
+        align-items: center
+        height: 1000px
         canvas
-            opacity: .5
+            opacity: .7
             border: white 1px solid
             border-radius: 14px
             width: 95%
