@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Navbar></Navbar>
       <Routes>
-        <Route path='/' element={<Container></Container>}></Route>
+        <Route path='/portfolio_definitivo' element={<Container></Container>}></Route>
       </Routes>
     </BrowserRouter>
   )
